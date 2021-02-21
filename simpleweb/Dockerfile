@@ -1,5 +1,6 @@
 # Specify a base image
-FROM alpine
+FROM node:alpine
+WORKDIR /usr/app
 
 # Install dependencies
 RUN npm install
